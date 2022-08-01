@@ -28,7 +28,7 @@ function NaviBar() {
 						</Link>
 					</Nav>
 					<Nav>
-						<Button variant="primary" className="me-5">
+						<Button variant="primary" className="me-3">
 							Log in
 						</Button>
 						<Button variant="primary">Sign out</Button>
