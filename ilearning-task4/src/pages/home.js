@@ -10,7 +10,7 @@ const Home = () => {
 			<h5>
 				you have to{" "}
 				<span>
-					<Link to="/users"> sign in</Link>
+					<Link to="/users"> login</Link>
 				</span>{" "}
 				or{" "}
 				<span>

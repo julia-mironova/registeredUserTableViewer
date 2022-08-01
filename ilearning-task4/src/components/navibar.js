@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import "react-bootstrap/dist/react-bootstrap.min.js";
 import { Navbar, Nav, Button, Container } from "react-bootstrap";
 
+const handleShow = () => {
+	console.log("go to reg");
+};
+
 function NaviBar() {
 	return (
 		<>
@@ -22,18 +26,20 @@ function NaviBar() {
 							<Link to="/" className="nav-link">
 								Home
 							</Link>
-							<Link to="/users" className="nav-link">
-								Users
-							</Link>
-							<Link to="/register" className="nav-link">
-								Register
-							</Link>
+							{
+								//TODO: only for registered users
+								//<Link to="/users" className="nav-link">
+								//Users
+								//</Link>
+							}
 						</Nav>
 						<Nav>
-							<Button variant="primary" className="me-3">
-								Log in
+							<Button variant="primary" className="me-3" onClick={handleShow}>
+								Login
 							</Button>
-							<Button variant="primary">Sign out</Button>
+							<Button variant="primary" onClick={handleShow}>
+								Register
+							</Button>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
