@@ -6,11 +6,17 @@ import { Navbar, Nav, Button } from "react-bootstrap";
 function NaviBar() {
 	return (
 		<>
-			<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+			<Navbar
+				collapseOnSelect
+				expand="lg"
+				bg="dark"
+				variant="dark"
+				className="px-5"
+			>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Navbar.Brand>ILearning, task4</Navbar.Brand>
-					<Nav className="mr-auto">
+					<Nav className="mx-auto">
 						<Link to="/" className="nav-link">
 							Home
 						</Link>
@@ -22,7 +28,7 @@ function NaviBar() {
 						</Link>
 					</Nav>
 					<Nav>
-						<Button variant="primary" className="mr-2">
+						<Button variant="primary" className="me-5">
 							Log in
 						</Button>
 						<Button variant="primary">Sign out</Button>
