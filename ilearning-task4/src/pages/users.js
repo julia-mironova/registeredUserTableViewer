@@ -1,3 +1,6 @@
 import React from "react";
-function Users() {}
+
+const Users = () => {
+	<h2>Table with users</h2>;
+};
 export default Users;

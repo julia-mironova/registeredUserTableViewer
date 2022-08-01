@@ -1,4 +1,6 @@
 import React from "react";
 
-function Home() {}
+const Home = () => {
+	<h2>Home, Sign in to see table</h2>;
+};
 export default Home;
