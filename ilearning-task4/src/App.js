@@ -13,18 +13,13 @@ function App() {
 		<>
 			<Router>
 				<NaviBar />
-
-				<Routes>
-					<Route path="/" element={<Home />} />
-				</Routes>
-
-				{/*<main className="App-main">
+				<main className="App-main">
 					<Routes>
 						<Route exact path="/" element={<Home />} />
 						<Route path="/users" element={<Users />} />
 						<Route path="/register" element={<Register />} />
 					</Routes>
-				</main>*/}
+				</main>
 				<footer className="App-footer">
 					<Footer />
 				</footer>

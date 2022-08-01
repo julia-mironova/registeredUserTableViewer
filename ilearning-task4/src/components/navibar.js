@@ -11,15 +11,15 @@ function NaviBar() {
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Navbar.Brand>ILearning, task4</Navbar.Brand>
 					<Nav className="mr-auto">
-						<Nav.Link>
-							<Link to="/">Home</Link>
-						</Nav.Link>
-						<Nav.Link>
-							<Link to="/users">Users</Link>
-						</Nav.Link>
-						<Nav.Link>
-							<Link to="/register">Register</Link>
-						</Nav.Link>
+						<Link to="/" className="nav-link">
+							Home
+						</Link>
+						<Link to="/users" className="nav-link">
+							Users
+						</Link>
+						<Link to="/register" className="nav-link">
+							Register
+						</Link>
 					</Nav>
 					<Nav>
 						<Button variant="primary" className="mr-2">
