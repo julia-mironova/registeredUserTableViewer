@@ -13,14 +13,14 @@ function App() {
 		<>
 			<Router>
 				<NaviBar />
-				<main className="App-main">
+				<main className="App-main ">
 					<Routes>
 						<Route exact path="/" element={<Home />} />
 						<Route path="/users" element={<Users />} />
 						<Route path="/register" element={<Register />} />
 					</Routes>
 				</main>
-				<footer className="App-footer">
+				<footer className="App-footer ">
 					<Footer />
 				</footer>
 			</Router>
